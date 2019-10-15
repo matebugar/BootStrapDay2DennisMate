@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <!------------------------------------------------------------------Navbar-------------------------------------------------------------->
+        <div class="row">
+            <div class="col-md-12 m-0 p-0">
+                <nav class="navbar navbar-expand-md navbar-dark bg-primary pl-3">
+                    <a class="navbar-brand" href="#">Movie Rating</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Movie</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Genre
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Anime</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!------------------------------------------------------------------Navbar End-------------------------------------------------------------->
+        <!----------------------------------------------------------------------row 1-------------------------------------------------------------->
+        <div class="row">
+            <!-----------------------------sidebar----------------------------------->
+            <div class="col-md-2 sidebar fixed-left navbar-light bg-secondary">
+
+                <ul class="nav nav-pills flex-column m-auto p-3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Movie</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Genre
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Anime</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9 content pt-5">
+                <div class="row">
+                    <div class="col-md-3 offset-1">
+                        <img src="image/alladin.jpg" alt="aladdin" height="300px" width="200px">
+
+                    </div>
+                    <div class="col-md-6 offset-1 ">
+                        <h1 class="display-4">Aladdin</h1>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-md-10 offset-1">
+                        <h1 class="display-4">Description</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, culpa ipsa. Eaque porro totam voluptate, dicta animi laborum, necessitatibus perspiciatis autem tenetur. Nostrum maiores, nihil tempora expedita aliquid quis, repellendus nemo, iusto ratione at soluta. Accusamus reprehenderit soluta, iure? Praesentium dolorem, dignissimos facere aut laboriosam, nemo, mollitia odio explicabo veritatis fugit, quia pariatur numquam impedit ab ipsum magnam consectetur eligendi dicta doloremque maiores excepturi nesciunt. Voluptates veniam neque quia architecto voluptate exercitationem, quae quas, iste qui aut dolorem alias a libero id aperiam aspernatur incidunt illo ipsa blanditiis nemo pariatur. Placeat quis vel fugiat molestias veritatis eveniet nostrum maxime. Nemo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--row 1-->
+        <div class=" row footer bg-primary ">
+            <div class="col-md-5 offset-1 ">
+                <ul class="nav nav-pills flex-column m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Movie</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Genre
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Anime</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-5 offset-1">
+                <h3 class="display-6 text-light">Some Content</h3>
+                <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde libero sequi nostrum sint temporibus esse ex, veritatis similique, quod dolore!</p>
+            </div>
+            <!---------------------------row2------------------------------------->
+            <div class="row border">
+                <div class="col-md-12">
+                    <p class="text-center">Dennis Pavitschitz</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
